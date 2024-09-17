@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
     const int maxSize = 10;
@@ -13,7 +14,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    printf("Enter the position to delete: ");
+    printf("Enter the position (0 based) to delete: ");
     int pos;
     scanf("%d", &pos);
 
